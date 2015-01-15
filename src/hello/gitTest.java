@@ -61,6 +61,7 @@ public class gitTest {
 		lklst.removeLast();
 		
 		System.out.println(lklst);
+		System.out.println("This Test is very simple and sorry...)
 	}
 
 }
