@@ -1,10 +1,20 @@
 package hello;
 
+import java.util.*;
+
 public class gitTest {
+	
+	private static List<String> arlst;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("hello");
+		
+		arlst = new ArrayList<String>();
+		
+		arlst.add("Kim");
+		arlst.add("Seok");
+		arlst.add("Hwan");
+		
+		System.out.println(arlst);
 	}
 
 }
