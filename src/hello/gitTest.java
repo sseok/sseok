@@ -37,13 +37,14 @@ public class gitTest {
 		Object arr[] = arrlst.toArray();
 		
 		for(int i=0; i<arr.length; i++) {
-			System.out.println("i°¡ " + i + " = " + arr[i]);
+			System.out.println("i is " + i + " = " + arr[i]);
 		}
+		System.out.println("");
 		
 		arr = arlst.toArray();
 		
 		for(int i=0; i<arr.length; i++) {
-			System.out.println("i°¡ " + i + " = " + arr[i]);
+			System.out.println("i is " + i + " = " + arr[i]);
 		}
 		
 		if (arr[1].toString() == "Hwan") {
